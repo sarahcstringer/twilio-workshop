@@ -1,14 +1,23 @@
 # Instructions
 
+## Before You Start
+
+All set up info can be found here https://hexdocs.pm/phoenix/installation.html
+
+  * Install Elixir https://elixir-lang.org/install.html
+  * Install Hex package manager with `mix local.hex`
+  * Install Phoenix with `mix archive.install hex phx_new 1.5.9`
+  * Install latest version of Node https://nodejs.org/en/download/ 
+  * Install and run Postgress (we are not using a database but will get an error without it running)
+ 
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Install Node.js dependencies with `npm install` inside the `assets` directory
   * Start Phoenix endpoint with `mix phx.server`
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
+## Start
 
 ## 1. Create a `/backlog` route
 
